@@ -18,10 +18,13 @@ body {
 h1 {
   color: var(--goldish);
   font-family: 'Petit Formal Script', cursive;
+  font-size: 70px;
+  text-shadow: 2px 2px 10px var(--redish);
 }
 
 .container {
   background-color: var(--greenish);
+  background-image: linear-gradient(to bottom right, var(--greenish), rgb(74, 145, 74));
   display: flex;
   flex: 1;
   height: 100%;
@@ -40,15 +43,17 @@ display: flex;
 flex-direction: column;
 padding: 10px;
 text-align: center;
-font-size: 70px;
+font-size: 100px;
 }
 
 .countdown > div > span{
   color: var(--redish);
+  text-shadow: 2px 2px 10px var(--grayish);
 }
 
 .countdown > div > span:nth-of-type(2){
   color: var(--grayish);
   font-family: 'Lily Script One', cursive;
-  font-size: 40px;
+  font-size: 60px;
+  text-shadow: 2px 2px 10px var(--goldish);
 }
