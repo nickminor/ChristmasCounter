@@ -1,0 +1,11 @@
+:root {
+  --greenish: #145f4a;
+  --grayish: #d8d3c8;
+  --redish: #d21525;
+  --goldish: #d99704;
+}
+
+html, 
+body {
+  margin: 0;
+}
