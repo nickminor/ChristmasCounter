@@ -1,0 +1,22 @@
+{
+  "name": "christmas",
+  "version": "1.0.0",
+  "description": "christmas",
+  "main": "xmas.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickminor/ChristmasCounter.git"
+  },
+  "keywords": [
+    "christmas"
+  ],
+  "author": "Nick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickminor/ChristmasCounter/issues"
+  },
+  "homepage": "https://github.com/nickminor/ChristmasCounter#readme"
+}
