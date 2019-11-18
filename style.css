@@ -4,8 +4,51 @@
   --redish: #d21525;
   --goldish: #d99704;
 }
+/* 
+font-family: 'Mountains of Christmas', cursive;
+font-family: 'Petit Formal Script', cursive;
+font-family: 'Lily Script One', cursive; */
 
 html, 
 body {
   margin: 0;
+  height: 100vh;
+}
+
+h1 {
+  color: var(--goldish);
+  font-family: 'Petit Formal Script', cursive;
+}
+
+.container {
+  background-color: var(--greenish);
+  display: flex;
+  flex: 1;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.countdown {
+  display: flex;
+  flex-direction: row;
+}
+
+.countdown > div {
+display: flex;
+flex-direction: column;
+padding: 10px;
+text-align: center;
+font-size: 70px;
+}
+
+.countdown > div > span{
+  color: var(--redish);
+}
+
+.countdown > div > span:nth-of-type(2){
+  color: var(--grayish);
+  font-family: 'Lily Script One', cursive;
+  font-size: 40px;
 }
