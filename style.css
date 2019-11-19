@@ -114,6 +114,8 @@ body {
 .lights{
   z-index: 2;
   max-height: 200px;
+  width: 100%;
+  top: -50px;
 }
 h1 {
   color: var(--goldish);
