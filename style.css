@@ -109,9 +109,11 @@ body {
 @keyframes animateOne {
   from {top: 0px;}
   to {top: 450px;}
+  
 }
 .lights{
   z-index: 2;
+  max-height: 200px;
 }
 h1 {
   color: var(--goldish);
